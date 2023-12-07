@@ -21,6 +21,7 @@ export default {
         <li>footerlist</li>
       </ul>
     </div>
+    <div>logo</div>
   </div>
 </template>
 

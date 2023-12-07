@@ -5,7 +5,9 @@ export default {
 </script>
 
 <template>
-  <div>logo</div>
+  <div>
+    <img src="/img/dc-logo.png" alt="Logo-DC" />
+  </div>
 </template>
 
 <style scoped></style>

@@ -8,4 +8,12 @@ export default {
   <main>main</main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@use '../styles/partials/variables..scss' as *;
+
+main {
+  height: 135px;
+  background-color: $black;
+  width: 100%;
+}
+</style>
