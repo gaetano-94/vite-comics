@@ -1,5 +1,11 @@
-<script></script>
+<script>
+export default {
+  name: 'Logo',
+};
+</script>
 
-<template></template>
+<template>
+  <div>logo</div>
+</template>
 
 <style scoped></style>

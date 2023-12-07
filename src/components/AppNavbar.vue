@@ -1,5 +1,13 @@
-<script></script>
+<script>
+export default {
+  name: 'Navbar',
+};
+</script>
 
-<template></template>
+<template>
+  <ul>
+    <li>navbar</li>
+  </ul>
+</template>
 
 <style scoped></style>
