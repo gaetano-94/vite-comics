@@ -1,5 +1,11 @@
-<script></script>
+<script>
+export default {
+  name: 'Header',
+};
+</script>
 
-<template></template>
+<template>
+  <header>header</header>
+</template>
 
 <style scoped></style>

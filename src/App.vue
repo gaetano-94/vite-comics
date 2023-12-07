@@ -1,5 +1,21 @@
-<script></script>
+<script>
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
+export default {
+  name: 'AppWeb',
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter,
+  },
+};
+</script>
 
-<template></template>
+<template>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
+</template>
 
 <style scoped></style>

@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: 'Footer',
+  name: 'Main',
 };
 </script>
 
 <template>
-  <footer>footer</footer>
+  <main>main</main>
 </template>
 
 <style scoped></style>
