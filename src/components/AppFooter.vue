@@ -19,4 +19,9 @@ export default {
 
 <style scoped lang="scss">
 @use '../styles/partials/variables..scss' as *;
+
+footer {
+  margin: 0px auto;
+  width: 100%;
+}
 </style>
