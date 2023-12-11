@@ -216,15 +216,18 @@ export default {
   }
 
   .container-logo {
+    height: 650px;
+
     position: absolute;
     top: 0;
     right: 0;
-    translate: 0 -100px;
+    translate: 0 -130px;
 
     img {
       display: block;
       width: 100%;
       height: 100%;
+      padding-right: 40px;
     }
   }
 }
