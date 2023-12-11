@@ -94,6 +94,7 @@ export default {
 
 <template>
   <section>
+    <button class="button-top"><strong>Current Series</strong></button>
     <div class="container">
       <div class="heroes">
         <div class="hero" v-for="hero in cardHeroes">
@@ -102,6 +103,7 @@ export default {
           </figure>
           <h4>{{ hero.series }}</h4>
         </div>
+        <button class="button-bottom">Load More</button>
       </div>
     </div>
   </section>
@@ -112,7 +114,22 @@ export default {
 section {
   width: 100%;
   background-color: $black;
-  padding: 50px;
+  padding: 50px 0px 0px 0px;
+  position: relative;
+
+  .button-top {
+    position: absolute;
+    top: 0;
+    margin: 0px auto;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: $primary;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+  }
 
   .container {
     max-width: 1250px;
@@ -140,6 +157,16 @@ section {
           object-fit: cover;
           object-position: top;
         }
+      }
+
+      .button-bottom {
+        margin: 20px auto;
+        padding: 10px 50px 10px 50px;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-color: $primary;
+        border: none;
+        color: white;
       }
     }
   }
