@@ -97,7 +97,9 @@ export default {
     <div class="container">
       <div class="heroes">
         <div class="hero" v-for="hero in cardHeroes">
-          <img :src="hero.thumb" :alt="hero.series" />
+          <figure>
+            <img :src="hero.thumb" :alt="hero.series" />
+          </figure>
           <h4>{{ hero.series }}</h4>
         </div>
       </div>
@@ -129,9 +131,14 @@ section {
           margin-top: 15px;
         }
 
+        figure {
+          height: 200px;
+        }
         img {
-          max-width: 100%;
-          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
         }
       }
     }

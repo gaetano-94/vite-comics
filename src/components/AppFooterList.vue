@@ -178,6 +178,8 @@ export default {
 <style scoped lang="scss">
 .container-list {
   display: flex;
+  position: relative;
+  overflow: hidden;
   width: 100%;
   justify-content: space-between;
   margin: 0 auto;
@@ -188,6 +190,7 @@ export default {
     display: flex;
     gap: 50px;
     margin-top: 30px;
+    margin-bottom: 30px;
 
     ul {
       list-style-type: none;
@@ -213,13 +216,15 @@ export default {
   }
 
   .container-logo {
-    height: 100%;
-    width: 100&;
+    position: absolute;
+    top: 0;
+    right: 0;
+    translate: 0 -100px;
 
     img {
       display: block;
-      width: 80%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
     }
   }
 }
